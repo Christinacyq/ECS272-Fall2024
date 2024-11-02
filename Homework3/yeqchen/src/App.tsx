@@ -36,7 +36,7 @@ function Layout() {
       <Grid item container xs={12} id="main-container">
         {/* Left: Geographical Map */}
         <Grid item xs={12} md={7} id="map-container" style={{ width: '100%', height: '100%' }}>
-          <h2>2024 Paris Olympics Dashboard - Yueqiao Chen</h2>
+          <h2>2024 Paris Swimming Olympics Dashboard - Yueqiao Chen</h2>
           <WorldMap style={{ width: '100%', height: '100%' }} />
         </Grid>
         {/* Right: Histogram and Parallel Coordinates Plot */}
